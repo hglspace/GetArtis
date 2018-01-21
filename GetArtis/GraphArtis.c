@@ -9,7 +9,7 @@ int low[MAX_VERTEX_NUM];//存放每个顶点的low值
 enum visitFlag flag=unvisited;
 static int count=1;
 /*
-  有向图的操作：
+  无向图的操作：
   1 初始化图
   2 深度优先遍历图
   3 广度优先遍历图
